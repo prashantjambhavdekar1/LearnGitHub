@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+<title>HTML first page</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="John Doe">
+  <meta http-equiv="refresh" content="30">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="https://www.w3schools.com/" target="_blank">
+<style>
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+img {
+  width: 5%;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+<p>
+HTML - The Head Element
+The HTML <q>head</q> element is a container for the following elements: <q>title</q>, <q>style</q>, <q>meta</q>, <q>link</q>, <q>script</q>, and <q>base</q>.
+The <q>link</q> element defines the relationship between the current document and an external resource.This tag is most often used to link to external style sheets:
+The <q>meta</q> element is typically used to specify the character set, page description, keywords, author of the document, and viewport settings.
+
+The <q>base</q> element specifies the base URL and/or target for all relative URLs in a page.
+The <q>base</q> tag must have either an href or a target attribute present, or both.
+There can only be one single <q>base</q> element in a document!
+</p>
+
+<h1>Heading HTML</h1>
+<h2>Heading HTML</h2>
+<h3>Heading HTML</h3>
+<h4>Heading HTML</h4>
+<h5>Heading HTML</h5>
+<h6>Heading HTML</h6>
+
+<p>Learning HTM paragraph</p>
+
+<p>HTML Link using anchor tag with hyperlink attribute</p>
+<a href="https://www.w3schools.com">W3School Website</a>
+</br>
+<img src="images/Shopping_Tshirt4.png" alt="Shopping TShirts" width="100" height="100" border="20" title="I am an Image tag">
+<p style="color:red;">HTML Link using anchor tag with hyperlink attribute</p
+<p>HTML Link using anchor tag with hyperlink attribute</p>
+<h1 style="font-size:60px;">Heading HTML</h1>
+<p>
+This paragraph ignores white sapces
+contains a lot of lines
+in the source code,
+but the browser
+ignores it.
+</p>
+<hr>
+<p style="background-color:powderblue;color:red;font-family:verdana;font-size:200%;text-align:center;">
+This paragraph ignores white sapces
+contains         a lot of spaces
+in the source         code,
+but the        browser
+ignores it.
+</p>
+<pre>
+This pre tage preserves white sapces
+contains         a lot of spaces
+in the source         code,
+but the        browser
+ignores it.
+</pre>
+<!-- Remember to add more information here -->
+<!-- Do not display this image at the moment
+<img border="0" src="pic_trulli.jpg" alt="Trulli">
+-->
+
+<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools! on blank page</a></br>
+<a href="https://www.w3schools.com/" target="_top">Visit W3Schools!on top page</a></br>
+<a href="https://www.w3schools.com/" target="_parent">Visit W3Schools!on parent page</a></br>
+<a href="https://www.w3schools.com/" target="_self">Visit W3Schools!on self page</a></br>
+To use an image as a link, just put the <img> tag inside the <a> tag:</br>
+<a href="https://www.w3schools.com/">
+<img src="images/Shopping_4.png" alt="HTML tutorial" style="width:42px;height:42px;"><br>
+<img src="images/Shopping_4.png" alt="Girl in a jacket" style="width:100px;height:100px;"><br>
+<img src="images/Shopping_4.png" alt="Girl in a jacket" style="float:right;width:42px;height:42px;"><br>
+To add a background image on an HTML element, use the HTML style attribute and the CSS background-image property:<br>
+<div style="background-image: url('img_girl.jpg');"><br>
+Images on Another Server/Website
+<img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">
+</a></br>
+Use mailto: inside the href attribute to create a link that opens the user's email program (to let them send a new email):</br>
+<a href="mailto:someone@example.com">Send email</a></br>
+To use an HTML button as a link, you have to add some JavaScript code.</br>
+<button onclick="document.location='index.html'">HTML Tutorial</button><br>
+Use the id attribute (id="value") to define bookmarks in a page<br>
+Use the href attribute (href="#value") to link to the bookmark<br>
+<a href="#C4">Jump to Chapter 4</a><br>
+<a href="html_demo.html#C4">Jump to Chapter 4</a><br>
+<h2>HTML Table</h2>
+
+<table style="width:100%">
+  <caption>Monthly savings</caption>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$50</td>
+  </tr>
+</table>
+
+<h2>An UnorderedHTML List</h2>
+list-style-type:disc, circle, square, none;
+<ul style="list-style-type:square;">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>  
+
+<h2>An Ordered HTML List</h2>
+
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol> 
+
+<h2>A Description List</h2>
+
+<dl>
+  <dt>Coffee</dt>
+	<dd>- Black hot drink</dd>
+    <dd>- Red hot drink</dd>
+  <dt>Milk</dt>
+	<dd>- Orange cold drink</dd>
+    <dd>- White cold drink</dd>
+</dl>
+<h2>A Nested List</h2>
+<p>Lists can be nested (list inside list):</p>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea
+    <ul>
+      <li>Black tea</li>
+      <li>Green tea</li>
+    </ul>
+  </li>
+  <li>Milk</li>
+</ul>
+<p>HTML Block and Inline Elements
+Every HTML element has a default display value, depending on what type of element it is.
+There are two display values: block and inline.
+A block-level element always starts on a new line and takes up the full width available eg div
+An inline element does not start on a new line and it only takes up as much width as necessary.
+</p>
+<h2>Use of The class Attribute in JavaScript</h2>
+<p>Click the button to hide all elements with class name "city":</p>
+
+<button onclick="myFunction()">Hide elements</button>
+
+<h2 class="city">London</h2>
+<p>London is the capital of England.</p>
+
+<h2 class="city">Paris</h2>
+<p>Paris is the capital of France.</p>
+
+<h2 class="city">Tokyo</h2>
+<p>Tokyo is the capital of Japan.</p>
+
+<script>
+function myFunction() {
+  var x = document.getElementsByClassName("city");
+  for (var i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+}
+</script>
+<script>
+function displayResult() {
+  document.getElementById("myHeader").innerHTML = "Have a nice day!";
+}
+</script>
+<p>An HTML iframe is used to display a web page within a web page.
+The HTML iframe tag specifies an inline frame.
+An inline frame is used to embed another document within the current HTML document.</p>
+<h2>HTML Iframes</h2>
+<p>You can use the height and width attributes to specify the size of the iframe:</p>
+
+<iframe src="index.html" height="200" width="100%" title="Iframe Example"></iframe>
+<p>An iframe can be used as the target frame for a link.
+
+The target attribute of the link must refer to the name attribute of the iframe:</p>
+<iframe src="demo_iframe.htm" name="iframe_a" title="Iframe Example"></iframe>
+
+<p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+
+<h1>My First JavaScript</h1>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+<h1>My First JavaScript</h1>
+
+<p id="demo1">JavaScript can change the style of an HTML element.</p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo1").style.fontSize = "25px"; 
+  document.getElementById("demo1").style.color = "red";
+  document.getElementById("demo1").style.backgroundColor = "yellow";        
+}
+</script>
+<button type="button" onclick="myFunction()">Click Me!</button>
+<h1>My First JavaScript END</h1>
+</body>
+</html>
+
